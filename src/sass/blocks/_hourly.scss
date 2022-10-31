@@ -1,0 +1,38 @@
+.hourly {
+    margin-top: 200px;
+    &__items {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 250px;
+    }
+    &__icon {
+        width: 105px;
+        height: 105px;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin-top: 23px;
+        font-size: 22px;
+        line-height: 23px;
+        color: #34343F;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 21px;
+        color: #34343F;
+        text-align: center;
+    }
+    &__oval-center {
+        width: 215px;
+        height: 133px;
+    }
+    &__end {
+        align-self: flex-end;
+    }
+
+}

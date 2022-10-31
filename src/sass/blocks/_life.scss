@@ -1,0 +1,36 @@
+.life {
+    margin-top: 215px;
+    &__items {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 182px;
+        margin-top: 55px;
+    }
+    &__icons {
+        margin: 0 auto;
+        width: 57px;
+        height: 57px;
+        img {
+            object-fit: none;
+        }
+    }
+    &__text {
+        margin-top: 22px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__desc {
+        margin-top: 55px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+}

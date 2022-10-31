@@ -1,0 +1,116 @@
+.itcss {
+    max-width: 1150px;
+    margin-top: 42px;
+    &__wrapper { 
+        background: none;
+    }
+    &__items {
+    }
+    &__item {
+    }
+    &__wrapper-item{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: minmax(auto, 519px) minmax(auto, 536px); 
+        gap: 33px 64px;
+    }
+    &__wrapper-control {
+        position: absolute;
+        margin: 52px auto 0 auto;
+        display: flex;
+        width: 231px;
+        justify-content: space-between;
+    }
+    &__indicators {
+        display: none;
+    }
+    &__control {
+    }
+    &__control_prev {
+        
+    }
+    &__control_next {
+
+    }
+    &__indicators {
+        background-color: red;
+    }
+    &__photo {
+        max-width: 519px;
+        max-height: 411px;
+    }
+    &__wrapper-desc {
+        position: relative;
+    }
+    &__control-container {
+        display: flex;
+        justify-content: center
+    }
+    &__title {
+        max-width: 338px;
+        font-size: 40px;
+        line-height: 32px;
+        color: #34343F;
+    }
+    &__text {
+        margin-top: 20px;
+        max-width: 536px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #34343F;
+    }
+    &__wrapper-btn {
+        max-width: 415px;
+        margin-top: 42px;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__more {
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #CE946B;
+    }
+    &__wrapper-number {
+        margin-top: 34px;
+        height: 59px;
+    }
+    &__number {
+        text-align: center;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #4B4D45;
+        span {
+            font-size: 50px;
+            line-height: 59px;
+            text-transform: uppercase;
+            color: #4B4D45;
+        }
+    }
+    &__wrapper-solid {
+    }
+    &__solid-after {
+        width: 332px;
+        height: 2px;
+        background:#DEDEE5;
+        transform: translate(377px, 61px);
+    }
+    &__solid-before {
+    }
+}
+.btn-slider {
+    border: none;
+    cursor: pointer;
+    width: 27px;
+    height: 27px;
+
+}
+.btn-prev {
+    background: url('../icons/arrow-left.svg') center (center/cover) no-repeat;
+}
+.btn-next {
+    background: url('../icons/arrow-rigth.svg') center (center/cover) no-repeat;
+}

@@ -1,0 +1,29 @@
+.task {
+    background: url('../img/task-bg.png') center (center/cover) no-repeat;
+    width: 100%;
+    height: 985px;
+    background-size: 100% 90%;
+    padding: 110px 0 0 0;
+    margin: -250px 0 0 0;
+    &__wrapper {
+        margin-top: 125px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-content: space-between;
+    }
+    &__form {
+    }
+    &__girl-form {
+        img {
+            transform: scale(1.65) translateX(-35px);
+        }
+    }
+    &__contant {
+        background: url('../img/form-bg.png') center (center/cover) no-repeat;
+        height: 590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}

@@ -1,0 +1,54 @@
+.atmosphere {
+    background: url('../img/atmosphere-bg.png') center (center/cover) no-repeat;
+    width: 100%;
+    height: 3472px;
+    margin-top: -150px;
+    &__bg-text-wrapper {
+        margin-left: auto;
+        max-width: 730px;
+        transform: translateX(75px);
+    }
+    &__bg-text {
+        font-family: 'TenorSans';
+        font-size: 120px;
+        line-height: 80px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.06;
+    }
+    &__items {
+        margin-top: -90px;
+    }
+    &__item {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__girl {
+        width: 550px;
+        height: 100%;
+    }
+    &__wrapper-text {
+    }
+    &__number {
+        padding-top: 175px;
+        font-family: 'TenorSans';
+        font-size: 300px;
+        line-height: 352px;
+        text-transform: uppercase;
+        background: linear-gradient(138.29deg, #F8E6E2 19.16%, #B0776B 81.84%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0.32;
+        display: table-cell;
+    }
+    &__text {
+        margin-top: -110px;
+        width: 470px;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+
+}

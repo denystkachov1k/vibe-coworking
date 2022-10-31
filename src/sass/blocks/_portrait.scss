@@ -1,0 +1,35 @@
+.portrait {
+
+    &__items {
+        margin-top: 21px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    &__item {
+        max-width: 280px;
+    }
+    &__photo {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    &__header {
+        font-size: 25px;
+        line-height: 23px;
+        color: #34343F;
+        text-align: center;
+        margin-top: 14px;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 21px;
+    }
+    &__btn {
+        margin: 19px 0 0 0;
+        display: flex;
+        justify-content: center
+    }
+
+}

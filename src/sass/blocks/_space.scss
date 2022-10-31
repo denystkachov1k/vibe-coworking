@@ -1,0 +1,60 @@
+.space {
+    margin-top: -180px;
+    background: url('../img/bg-space.png') center (center/cover) no-repeat;
+    width: 100%;
+    height: 1600px;
+    padding: 300px 0 0 0;
+    &__wrapper {
+        margin-top: 85px;
+        display: grid; 
+        grid-template-columns: minmax(auto, 1fr) minmax(auto, 379px); 
+        gap: 0 42px; 
+    }
+    &__bg-btn {
+        position: relative;
+    }
+    &__oval-space {
+        width: 47px;
+        height: 47px;
+        position: absolute;
+        left: 450px;
+        top: 217px;
+    }
+    &__text-btn {
+        font-size: 13px;
+        line-height: 14px;
+        color: #FFFFFF;
+        width: 90px;
+        position: absolute;
+        left: 500px;
+        top: 205px;
+    }
+    &__wrapper-text {
+    }
+    &__text-top {
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    &__text-down {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        span {
+            color: #EAB1B4;
+        }
+    }
+}
+.chair {
+    background: url('../img/chair.png') center (center/cover) no-repeat; 
+    position: relative;
+}
+.btn-circle {
+    width: 123px;
+    height: 125px;
+    position: absolute;
+    left: 345px;
+    top: 206px;
+}

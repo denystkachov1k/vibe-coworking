@@ -1,0 +1,49 @@
+.benefits {
+    margin-top: -295px;
+    &__wrapper {
+        height: 250px;
+        position: relative;
+        display: flex;
+    }
+    &__item {
+        width: 230px;
+        height: 172px;
+        position: relative;
+    }
+
+    &__end {
+        align-self: flex-end;
+    }
+    &__icon {
+        width: 99px;
+        height: 99px;
+        z-index: 2;
+        position: relative;
+    }
+    &__number {
+        font-size: 80px;
+        line-height: 94px;
+        text-transform: uppercase;
+        color: #696975;
+        position: absolute;
+        top: 17px;
+        left: 61px;
+        z-index: 1;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 13px;
+    }
+    &__oval {
+        width: 215px;
+        height: 133px;
+    }
+    &__oval-center {
+        width: 215px;
+        height: 133px;
+    }
+
+}

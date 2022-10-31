@@ -1,0 +1,28 @@
+.scroll-down {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 185px;
+    width: 19px;
+    left: 188px;
+    top: 422px;
+    z-index: 20;
+    &__text {
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.27);
+        letter-spacing: 2px;
+        height: 120px;
+        width: 125px;
+        transform: rotate(-90deg);
+    }
+    &__shape {
+        margin-top: 29px;
+        width: 19px;
+        height: 36px;
+    }
+}

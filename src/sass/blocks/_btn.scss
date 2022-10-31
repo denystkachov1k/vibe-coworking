@@ -1,0 +1,61 @@
+.btn {
+    background: linear-gradient(314.24deg, #C88C61 25.11%, #EBBE9C 88.64%);
+    box-shadow: 0px 4px #B98766;
+    font-size: 14px;
+    line-height: 102px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 1px solid #C88C61;
+    border-radius: 20px; 
+    padding: 0 62px 0 57px;
+    margin-top: 14px;
+    &__back-call-img {
+        margin-left: 19px;
+        width: 16px;
+        height: 22px;
+        transform: translateY(-3px);
+    }
+    &:hover {
+        background: linear-gradient(314.24deg, #e68a49 25.11%, #e9ab78 88.64%);
+    }
+    &_space {
+        margin-top: 32px;
+        max-width: 303px;
+        text-align: center;
+    }
+    &_itcss {
+        max-width: 241px;
+        margin-top: 0;
+        line-height: 73px;
+        padding: 0 35px 0 35px;
+    }
+    &_map {
+        max-width: 370px;
+    }
+    
+}
+.expert-btn {
+    background: #EDD5D0;
+    border-radius: 22px;
+    width: 121px;
+    height: 37px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #363348;
+    border: 1px solid #C88C61;
+    &:hover {
+        background: linear-gradient(314.24deg, #e68a49 25.11%, #e9ab78 88.64%);
+    }
+    &_lashmaker {
+        transform: translate(-13px, 64px);
+    }
+    &_browist {
+        transform: translate(220px, 5px);
+    }
+    &_masseur {
+        transform: translate(-231px, 534px);
+    }
+    &_beautician {
+        transform: translate(325px, 395px);
+    }
+}

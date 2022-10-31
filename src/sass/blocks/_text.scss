@@ -1,0 +1,43 @@
+.text {
+    margin-top: 26px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    span {
+        color: #EAB1B4;
+    }
+    span {
+        &:nth-child(2) {
+            color: #FFFFFF; 
+            font-family: 'TTNorms-Italic';
+            text-transform: uppercase;
+        }
+    }
+    &_black {
+        color: #000000;
+    }
+    &_locations {
+        max-width: 905px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'TTNorms-Medium';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    &_atmosphere {
+        text-align: center;
+        span {
+            &:nth-child(2) {
+                color: #EAB1B4;
+            font-family: 'TTNorms-Medium';
+            text-transform: none;
+            }
+        }
+    }
+    &_center {
+        text-align: center;
+    }
+}

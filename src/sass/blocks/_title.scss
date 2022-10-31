@@ -1,0 +1,21 @@
+.title {
+    margin-top: 52px;
+    margin-bottom: 0;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    span {
+        color: #E5B093;
+    }
+    &_center {
+        max-width: 900px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &_black {
+        color: #000000;
+    }
+    &_white {
+        color: #FFFFFF;
+    }
+}
